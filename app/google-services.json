@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "719590458402",
+    "project_id": "abstract-edb6d",
+    "storage_bucket": "abstract-edb6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719590458402:android:b9ecb530eca0a87e42f67b",
+        "android_client_info": {
+          "package_name": "com.boken.abstractm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719590458402-caf7j61pc6mv1qckrbilq8kj0r5g2k8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi-IX_5DgjVHtjOIXUQUPOPAzuvzODt2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719590458402-caf7j61pc6mv1qckrbilq8kj0r5g2k8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719590458402:android:1884f8410bf67a8242f67b",
+        "android_client_info": {
+          "package_name": "com.boken.bokengames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719590458402-caf7j61pc6mv1qckrbilq8kj0r5g2k8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi-IX_5DgjVHtjOIXUQUPOPAzuvzODt2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719590458402-caf7j61pc6mv1qckrbilq8kj0r5g2k8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
