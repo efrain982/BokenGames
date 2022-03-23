@@ -22,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
         EditText password = (EditText) findViewById(R.id.pass);
         TextView txtLogin = (TextView) findViewById(R.id.btnLogin);
 
-        Intent intent = new Intent(MainActivity.this, Inicio.class);
+        Intent intent = new Intent(MainActivity.this, MainMenu.class);
 
         txtLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (user.getText().toString().equals("4dm1n") && password.getText().toString().equals("b0k3N")){
+                if (user.getText().toString().equals(".") && password.getText().toString().equals(".")){
                     startActivity(intent);
                 }else{
                     new SweetAlertDialog(MainActivity.this, SweetAlertDialog.ERROR_TYPE)

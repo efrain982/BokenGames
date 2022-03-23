@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Inicio extends AppCompatActivity {
+public class Grafica1 extends AppCompatActivity {
 
 //    private BarChart chart;
     private PieChart pieChart;
@@ -22,7 +22,7 @@ public class Inicio extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicio);
+        setContentView(R.layout.activity_grafica_1);
         showPieChart();
     }
 
