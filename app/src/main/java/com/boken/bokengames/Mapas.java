@@ -14,15 +14,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Grafica1 extends AppCompatActivity {
+public class Mapas extends AppCompatActivity {
 
-//    private BarChart chart;
     private PieChart pieChart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_grafica_1);
+        setContentView(R.layout.activity_mapas);
         showPieChart();
     }
 
@@ -30,15 +29,15 @@ public class Grafica1 extends AppCompatActivity {
         pieChart = findViewById(R.id.pieChart_view);
 
         ArrayList<PieEntry> pieEntries = new ArrayList<>();
-        String label = "Mejor Superhéroe";
+        String label = "Venta de Mapas por Semana";
 
         //initializing data
         Map<String, Integer> typeAmountMap = new HashMap<>();
-        typeAmountMap.put("HULK", 200);
-        typeAmountMap.put("THOR", 230);
-        typeAmountMap.put("IRON MAN", 100);
-        typeAmountMap.put("BLACK WIDOW", 500);
-        typeAmountMap.put("SPIDER MAN", 50);
+        typeAmountMap.put("Semana Uno", 10);
+        typeAmountMap.put("Semana Dos", 15);
+        typeAmountMap.put("Semana Tres", 8);
+        typeAmountMap.put("Semana Cuatro", 10);
+        typeAmountMap.put("Semana Cinco", 9);
 
         //initializing colors for the entries
         ArrayList<Integer> colors = new ArrayList<>();
