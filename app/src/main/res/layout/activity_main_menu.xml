@@ -23,7 +23,7 @@
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="match_parent"
-            android:layout_height="273dp"
+            android:layout_height="270dp"
             android:background="@drawable/blue_bg"
             tools:ignore="MissingConstraints">
 
@@ -182,7 +182,7 @@
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:drawableTop="@drawable/ic_baseline_menu_book_24"
-                android:onClick="openDescargas"
+                android:onClick="openHistoria"
                 android:text="Historia"
                 android:textAlignment="center"
                 android:textColor="#000000"/>
@@ -212,6 +212,7 @@
         </androidx.cardview.widget.CardView>
 
         <ImageView
+            android:id="@+id/imageViewLogout"
             android:layout_width="99dp"
             android:layout_height="86dp"
             android:src="@drawable/control"

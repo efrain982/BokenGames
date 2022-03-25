@@ -15,12 +15,12 @@ public class Instrucciones extends AppCompatActivity {
     TextView descripcionTextView;
 
     int stepIndex = 0;
-    String[] stepsTexts = {"Paso 1", "Paso 2", "Paso 3", "Paso 4"};
+    String[] stepsTexts = {"Brincar", "Moverse", "Correr", "Disparar"};
     String[] descripcionText = {
-            "Primera Instrucción",
-            "Segunda Instrucción",
-            "Tercera Instrucción",
-            "Cuarta Instrucción",
+            "Utilizamos la Tecla 'Space' para ejecutar la acción de poder brincar",
+            "Utilizamos las Teclas '<-' & '->' para poder movernos en el mapa",
+            "Utilizamos la Tecla 'Z' para correr",
+            "Utilizamos la Tecla 'X' para disparar",
     };
 
     @Override
